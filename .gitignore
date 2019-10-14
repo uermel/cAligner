@@ -30,3 +30,41 @@
 *.exe
 *.out
 *.app
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+*.cbp
+
+# Profiler
+*.prof
+
+# Binary/text data
+*.bin
+*.txt
+!CMakeLists.txt
+
+# Cuda
+*.cu
+*.cuh
+
+# Matlab
+*.m
+
+# directories
+FileIO/old_markerfile
+FileIO/splm_markerfile
+
+# Visual studio
+*.vcxproj
+*.vcxproj.filters
+*.cd
