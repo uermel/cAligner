@@ -317,7 +317,7 @@ void MarkerFile::Align3D(int aReferenceMarker, int width, int height, float& aEr
 
     //start with simple old alignment to get good start values for minimization
     //TODO: change back
-    //AlignSimple(aReferenceMarker, width, height, aErrorScore, rotation, x, y, z);
+    AlignSimple(aReferenceMarker, width, height, aErrorScore, rotation, x, y, z);
 
     // Build alignment problem
     AlignmentProblem ali(MarkerCount, ProjectionCount, 2 * MarkerCount * ProjectionCount, (double)width, (double)height);
@@ -417,7 +417,7 @@ void MarkerFile::Align3D(int aReferenceMarker, int width, int height, float& aEr
         //MinimizeShift(x, y, z, thetas, psis, mags, phi[0], shiftsX, shiftsY, width, height);
         //MinimizeShift(&data);
         //TODO: change back
-        //solver.minimizeShifts();
+        solver.minimizeShifts();
         //Console.WriteLine("Nach Shift");
         progressCounter++;
         if (updateprog)
