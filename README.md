@@ -3,6 +3,9 @@
 for non-linear least squares optimization. 
 
 Based on the [Artiatomi](https://github.com/uermel/Artiatomi) package for processing cryo-tomography data.
+Using the acquisition model described in:
+
+Castaño-Díez, D., Seybert, A., Frangakis, A.S. (2006). _[Tilt-series and electron microscope alignment for the correction of the non-perpendicularity of beam and tilt-axis.](https://doi.org/10.1016/j.jsb.2005.12.009)_ Journal of Structural Biology.
 
 Uses [getoptpp](https://code.google.com/archive/p/getoptpp/) for command line input.
 
