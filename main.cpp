@@ -22,10 +22,10 @@ static void status(int percent)
 }
 
 static void show_usage(){
-    string msg = "ceresAligner aligns tomographic tilt series based on fiducial marker positions on the projection images.\n"
+    string msg = "cAligner aligns tomographic tilt series based on fiducial marker positions on the projection images.\n"
                  "\n"
                  "Usage:\n"
-                 "\tceresAligner -input FILE -output FILE [OPTIONAL PARAMETERS]\n"
+                 "\tcAligner -input FILE -output FILE [OPTIONAL PARAMETERS]\n"
                  "\n"
                  "I/O (required):\n"
                  "\t-i; --input \t\t Input filename.\n"
