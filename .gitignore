@@ -32,6 +32,7 @@
 *.app
 
 # CMake
+cmake-build-debug
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -68,3 +69,7 @@ FileIO/splm_markerfile
 *.vcxproj
 *.vcxproj.filters
 *.cd
+
+#CLion
+.idea
+
