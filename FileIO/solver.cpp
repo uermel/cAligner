@@ -243,14 +243,14 @@ int main(int argc, char** argv){
     ceres::Solve(options, &problem, &summary);
     std::cout << summary.FullReport() << "\n";
 
-    fp = fopen("data_out.bin", "wb");
-    fwrite(ali.mutable_points(), sizeof(double), 3*MarkerCount, fp);
-    fwrite(ali.mutable_thetas(), sizeof(double), ProjectionCount, fp);
-    fwrite(ali.mutable_psis(), sizeof(double), ProjectionCount, fp);
-    fwrite(ali.mutable_mags(), sizeof(double), ProjectionCount, fp);
-    fwrite(ali.observations(), sizeof(double), 2*ProjectionCount*MarkerCount, fp);
-    fwrite(ali.mutable_shifts(), sizeof(double), 2*ProjectionCount, fp);
-    fclose(fp);
+    //fp = fopen("data_out.bin", "wb");
+    //fwrite(ali.mutable_points(), sizeof(double), 3*MarkerCount, fp);
+    //fwrite(ali.mutable_thetas(), sizeof(double), ProjectionCount, fp);
+    //fwrite(ali.mutable_psis(), sizeof(double), ProjectionCount, fp);
+    //fwrite(ali.mutable_mags(), sizeof(double), ProjectionCount, fp);
+    //fwrite(ali.observations(), sizeof(double), 2*ProjectionCount*MarkerCount, fp);
+    //fwrite(ali.mutable_shifts(), sizeof(double), 2*ProjectionCount, fp);
+    //fclose(fp);
 
     return 0;
 }

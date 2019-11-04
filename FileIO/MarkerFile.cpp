@@ -548,11 +548,11 @@ void MarkerFile::Align3D(int aReferenceMarker, int width, int height, float& aEr
         }
     }
 
-    FILE* fp = fopen("data_out.bin", "wb");
-    fwrite(aX, sizeof(float), MarkerCount, fp);
-    fwrite(aY, sizeof(float), MarkerCount, fp);
-    fwrite(aZ, sizeof(float), MarkerCount, fp);
-    fclose(fp);
+    //FILE* fp = fopen("data_out.bin", "wb");
+    //fwrite(aX, sizeof(float), MarkerCount, fp);
+    //fwrite(aY, sizeof(float), MarkerCount, fp);
+    //fwrite(aZ, sizeof(float), MarkerCount, fp);
+    //fclose(fp);
     //float* diffs = new float[ProjectionCount * MarkerCount * 2];
     //int* usedBeads = new int[ProjectionCount];
 
