@@ -3,6 +3,7 @@ project(cAligner LANGUAGES CXX)
 
 find_library(LIB_LM m)
 
+set(CMAKE_CXX_STANDARD 14)
 include_directories(${CMAKE_SOURCE_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/FileIO)
 include_directories(${CMAKE_SOURCE_DIR}/FilterGraph)
