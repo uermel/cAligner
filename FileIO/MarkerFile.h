@@ -7,8 +7,6 @@
 //#include "../FilterGraph/Matrix.h"
 #include "Eigen/Dense"
 #include "ImodFiducialFile.h"
-#include "/home/uermel/Programs/sparselm-1.3/splm.h"
-
 
 //! Definition of marker file items
 enum MarkerFileItem_enum
