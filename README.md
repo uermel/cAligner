@@ -21,7 +21,7 @@ git clone https://github.com/uermel/cAligner.git
 cd cAligner
 mkdir build
 cd build
-cmake ../CMakeLists.txt
+cmake ..
 make
 ```
 
